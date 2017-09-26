@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <meta name="description" content="Personal Blog for Nurul Amin">
+        <meta name="keywords" content="nurul9615, nurul amin, electronic, electric, engineering, software, development">
+        <meta name="author" content="Nurul Amin">
+
+        <title>Nurul Amin | Home</title>
+
+
+        <!-- Bootstrap Core CSS -->
+        <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+
+        <!-- Custom Icons -->
+        <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+        <!-- Custom styles -->
+        <link rel="stylesheet" type="text/css" href="./stylesheet.css">
+    </head>
+
+    <body>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <a class= "navbar-brand" href="index.html">Nurul Amin</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class = "nav-link" href="index.html">Home</a>    
+                    </li>
+                    <li class="nav-item">
+                        <a class = "nav-link" href="about.html">About</a>       
+                    </li>
+                    <li class="nav-item">
+                        <a class = "nav-link" href="projects.html">Projects</a>       
+                    </li>
+                    <li class="nav-item">
+                        <a class = "nav-link" href="contact.html">Contact</a>       
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Header -->
+        <header class="masthead" style="background-image: url('img/gradient.jpg')">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 col-md-10 mx-auto">
+                <div class="site-heading">
+                  <h1>Blog Posts</h1>
+                  <span class="subheading">Posts covering a variety of topics from university projects to random events</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <!-- Post Content -->
+        <article>
+          <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div class="post-menu">
+                        <h1>Posts</h1>
+                        <ul>
+                          <a href="#digitalsupply"><li type="square">Digital Power Supply For Antarctic</li></a>
+                          <a href="#audio"><li type="square">Audio Descrambler</li></a>
+                          <a href="#emg"><li type="square">Electromyogram Muscle Sensors</li></a>
+                          <a href="#iepTwo"><li type="square">Integrated Engineering - Control System for a Bioreactor</li></a>
+                          <a href="#smartLamp"><li type="square">Smart Lamp</li></a>
+                        </ul>
+                    </div>    
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div>
+                      <a name="digitalsupply"><h1>Digital Power Supply For The Antarctic</h1></a>
+                    </div>
+                    <p>
+                    During my second year of university, one of our modules (Design and Professional Skills II) involved a three month project worth 20% running between January and March 2017 in a team of five. The aim was to get an idea of the industrial design processes used in the professional world. This involved creating a systems engineering and requirements analysis, understanding data sheets/specifications, manufacturing, verification and testing and finally the economics and risks associated with everything. Workshops were ran once a week to learn about the processes and review what we had done. Although the final design is a relatively simple circuit, the project was intended to be more about the process than the results.
+                    </p>
+
+                    <p>
+                    It involved:
+                    <ul>
+                        <li>Formally defining requirements</li>
+                        <li>Documenting the design</li>
+                        <li>Defining verification tests demonstrating rigorously that requirements are met</li>
+                        <li>Verification tests recorded including failures and rework plans</li>
+                    </ul>       
+                    </p>
+
+                    <p>
+                    The scenario involves a customer who wishes to deploy several weather stations at various remote locations in Antarctica. The station will have a two-way radio link with a manned station and make measurements on demand. The station must be small and light enough to be carried to its location by sledge and must operate and be capable of being reprogrammed without maintainence for a period of 15 years.
+                    </p>
+
+                    <p>
+                    An overview of the whole system is shown below in a hierarchical diagram.
+                    <div class="blogImages">
+                        <img src="./img/weatherOverview.PNG">
+                    </div>
+                    As can be seen, we only worked on one sub-system of the whole station. This is the digital power supply which provides a stable DC output voltage of either 5V or 12V.  
+                    </p>
+
+                    <p>
+                    The following documents were to be created in the process:
+                    <ul>
+                        <li>Requirements specification</li>
+                        <li>Data sheet</li>
+                        <li>Verification plan and results</li>
+                        <li>Design data such as schematics, layout and parts list</li>
+                        <li>Costing for manufacture</li>
+                        <li>Manufacturing plan</li>
+                    </ul>       
+                    </p>
+
+                    <p>
+                    The requirements of the circuit were provided to us as shown below.
+                    <div class="blogImages">
+                        <img src="./img/circuitReq.PNG">
+                    </div>
+                    So this circuit was to be used as the power supply for powering computer-related components and sensors. Surface mount components were only to be used with many other strict specifications for the printed circuit board. The PCB was designed using DipTrace, a freely available piece of software.    
+                    </p>
+
+                    <p>
+                    A full list of the requirements can be seen <a target="_blank" href="./hyperlinks/RequirementsAnalysis.pdf">here</a>. This contains the environmental conditions the supply will be in as well as the range of voltage values it will provide which is one of the most important aspects. In essence, it should have a voltage range between 4.85V-5.15V and 11.2V-12.8V for the other output. This circuit can be powered by at least 14.8V which can be provided by four 3.7V batteries.   
+                    </p>
+
+                    <p>
+                    You may look at the datasheet we created <a target ="_blank" href="./hyperlinks/DataSheet.pdf">here</a>. This contains a functional block diagram, a circuit schematic diagram, the absolute maximum ratings and the electrical characteristics. 
+                    </p>
+
+                    <p>
+                    The verification plan can be found <a target ="_blank" href="./hyperlinks/VerificationPlan.pdf">here</a>. This document illustrates the tests and results that were carried out to verify the circuit against the requirements listed. The verification methods included inspection, analysis, testing and demonstrating. Each group member was in charge of testing our different verification methods and acquiring results. 
+                    </p>
+
+                    <p>
+                    The costing and manufacturing plan can be found <a target ="_blank" href="./hyperlinks/DesignReview.pdf">here</a>. This contains the manufacturing plan detailing how the actual circuit will be manufactured from the ground up. It also contains the recurring and non-recurring costs associated with the design and manufacturing. Risks and contingencies were analysed to add in to the cost. In the end, we predicted the final cost per PCB circuit to be £117.83. 
+                    </p>
+
+                    <p>
+                    So the circuits we designed included:
+                        <ul>
+                          <li>UA723CD voltage regulator x2 (U1 and U2)</li>  
+                          <li>22&#8486; resistor x2 (R3 and R6)</li>  
+                          <li>4.7k&#8486; resistor x1 (R4)</li>  
+                          <li>2.2k&#8486; resistor x1 (R1)</li>  
+                          <li>5.1k&#8486; resistor x1 (R2)</li>  
+                          <li>7.5k&#8486; resistor x1 (R5)</li>  
+                          <li>1uF capacitor x1 (C1)</li>  
+                          <li>100pF capacitor x2 (C2 and C3)</li>  
+                        </ul> 
+                    </p>
+
+                    <p>Shown below is the overall schematic of the circuit diagram. The left is the 5V regulator and the right is the 12V regulator. The actual circuit design and resistor values were taken from the regulator datasheets which provided a table with the specific component values needed for say, a 5V output. Resistors R3 and R6 were used to set the maximum short circuit current. Resistors R1 and R2 (as well as R4 and R5) act as a potential divider to set the appropiate input voltage.</p>
+
+                    <p>
+                        <div class="blogImages">
+                            <img src="./img/schematic.jpg">
+                        </div>
+                    </p>
+
+                    <p>The above schematic was then converted into a PCB design using DipTrace using the autoroute function as shown below. The result was not optimal with confusing routing points between components so manual routing was done to make the board as simple and clean as possible.  
+                    </p>
+
+                    <p>
+                        <div class="blogImages">
+                            <img src="./img/pcbdesign.PNG">
+                        </div>
+                    </p>
+
+                    <p>The PCB was then created in our university laboratories and we soldered on the components ourselves which was actually quite difficult since the SMD components were extremely tiny. The project turned out successful as we demonstrated the two different output voltages being stable over a range of input voltages. To improve our results, we could have tested the circuit under different conditions such as higher environmental temperatures or with different types of input voltage sources. 
+                    </p>
+                    <span class="meta">Posted by
+                        <a href="#">Nurul Amin</a>
+                        on September 5, 2017</span>
+              </div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+              <div class="col-lg-8 col-md-10 mx-auto">
+                    <div>
+                      <a name="audio"><h1>Audio Descrambler</h1></a>
+                    </div>
+                    <p>
+                      This project involved descrambling an audio signal in real time using digital and analog hardware. Below is the overall system diagram of how it works. Using MATLAB and fourier transforms, we found that the scrambled audio signal had been inverted and a 8kHz sine wave was added into it. So the goal is to eliminate the 8kHz sine wave and invert the signal using a digital filter.
+                    </p>
+                    <p>
+                      <div class="blogImages">
+                            <img src="./img/overallaudiodiagram.PNG">
+                        </div>
+                    </p>
+                    <p>
+                      As the MSP432 cannot read negative voltages, a biasing circuit using a potentiometer had to be used. This offsets the analogue signal before going through the ADC process in the MSP432. The circuit below was constructed and the results were that the analogue signal was offset by 0.6V and the output was completely positive.
+                    </p>
+                    <p>
+                      <div class="blogImages">
+                            <img src="./img/Capture.PNG">
+                        </div>
+                    </p>
+                    <p>
+                      After the ADC, filtering was done using the fdatool on MATLAB to provide us with coefficients with a digital infinite impulse response filter. This MATLAB code would be implemented in C. 
+                    </p>
+                    <p>
+                      An R-2R Digital to Analog converter was used to convert the digital signal from the MSP432 into an audible analogue signal. This has an 8 bit input from 8 GPIO pins on the MSP432. It provides an output with a ratio between R and 2R. These bit inputs are switched between 1 and 0. The network causes the bits to be weighted in their contribution to Vout.
+                    </p>
+                    <p>
+                      <div class="blogImages">
+                            <img src="./img/Capture2.PNG">
+                        </div>
+                    </p>
+                    <p>
+                      A fourth order low pass anti-aliasing filter was used with the Sallen Key topology to smooth out the output signal with a gain of 1dB and a cutoff frequency of 5kHz.
+                    </p>
+                    <p>
+                      <div class="blogImages">
+                            <img src="./img/Capture3.PNG">
+                        </div>
+                    </p>
+                    <p>
+                      The final stage was a class AB power amplifier. This was used as without this, the sound was nearly inaudible. This is because of the very low output current from the MSP432 due to the resistors from the R-2R. This has low distortion but high efficiency. It provides audio frequency amplification as it is a frequency converter which converts DC power from the supply into AC signal power into the load. To minimise crossover distortion, the diodes provide bias to operate in the linear region with unity gain. This has a current gain of 15.
+                    </p>
+                    <p>
+                      <div class="blogImages">
+                            <img src="./img/Capture4.PNG">
+                        </div>
+                    </p>
+                    <p>
+                      The final circuit looked something like below with each part connected to the next and a speaker connected at the last stage output (8&#8486; speaker with a 0.3W rating).
+                    </p>
+                    <p>
+                      <div class="blogImages">
+                            <img src="./img/bigdiagram.PNG">
+                        </div>
+                    </p>
+                    <span class="meta">Posted by
+                        <a href="#">Nurul Amin</a>
+                        on September 1, 2017</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <hr>
+
+        <!-- Footer Of Page -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-10 mx-auto">
+                        <ul class="list-inline text-center">
+                            <li class="list-inline-item">
+                                <a href="https://www.facebook.com/profile.php?id=100009783919450">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>    
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://github.com/Nurul9615">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>    
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/nurulamin15/">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>    
+                            </li>
+                        </ul>
+                        <p class="copyright text-muted">COPYRIGHT &copy; 2017 | NURUL AMIN | STUDENT | LONDON | UK</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap Core -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+        <!-- Custom Scripts -->
+        <script src="js/blog.js"></script>
+
+    </body>
+
+</html>
