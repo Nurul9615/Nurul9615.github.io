@@ -25,7 +25,8 @@
         else if (currentTop > this.previousTop) {
           //if scrolling down...
           $('#mainNav').removeClass('is-visible');
-          if (currentTop > headerHeight && !$('#mainNav').hasClass('is-fixed')) $('#mainNav').addClass('is-fixed');
+          if (currentTop > headerHeight && !$('#mainNav').hasClass('is-fixed')) 
+            $('#mainNav').addClass('is-fixed');
         }
         this.previousTop = currentTop;
       });
@@ -52,11 +53,6 @@ function scrollFunction() {
     document.getElementById("scrollBtn").style.display = "none";
   }
 }
-
-// function topFunction() {
-//   document.body.scrollTop = 0;
-//   document.documentElement.scrollTop = 0;
-// }
 
 $("button").click(function() {
   $('html,body').animate({
