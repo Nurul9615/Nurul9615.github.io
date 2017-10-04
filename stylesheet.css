@@ -13,6 +13,9 @@ p {
 p a {
     text-decoration: underline;
 }
+ul {
+    list-style-position: inside;
+}
 h1,
 h2,
 h3,
@@ -21,6 +24,18 @@ h5,
 h6 {
     font-weight: 800;
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.row {
+    text-align: center;
+}
+.post-menu li {
+    text-align: center;
+}
+.noBullets {
+    list-style-type: none;
+}
+.noLineSpace p{
+    line-height: 0.5;
 }
 a {
     color: #333333;
