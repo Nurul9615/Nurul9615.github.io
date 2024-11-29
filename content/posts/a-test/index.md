@@ -1,5 +1,5 @@
 ---
-title: A Failure of Comprehension
+title: A test
 author: Nurul
 date: 2010-11-23T21:29:58+00:00
 aliases: ["/wordpress/27"]
