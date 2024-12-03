@@ -1,6 +1,6 @@
 languageCode: en-gb
-baseUrl: "https://nurul9615.github.io/"
-title: nurul9615.github.io
+baseUrl: "https://blog.nurul.online/"
+title: blog.nurul.online
 theme: PaperMod
 
 pagination:
@@ -17,7 +17,7 @@ minify:
 
 params:
   env: production
-  title: nurul9615.github.io
+  title: blog.nurul.online
   description: Brain Excretions
   keywords: [Blog, Nurul, PaperMod]
   author: Nurul
@@ -46,7 +46,7 @@ params:
     disableHLJS: true
 
   homeInfoParams:
-    Title: Brain Excretions
+    Title: Ephemeral Wayfarer
     Content: |
       Build a man a fire, and he'll be warm for a day.
 
@@ -54,7 +54,7 @@ params:
 
   socialIcons:
     - name: github
-      url: "https://github.com/nurul9615"
+      url: "https://blog.nurul.online"
 
   fuseOpts:
     isCaseSensitive: false
